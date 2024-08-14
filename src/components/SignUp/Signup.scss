@@ -46,6 +46,7 @@
           input {
             height: 50px;
             border: none;
+            border-radius: 10px;
           }
           input::placeholder {
             font-family: "Hind", sans-serif;
@@ -53,6 +54,7 @@
             font-style: normal;
             font-size: 20px;
             color: #d1cbcb;
+            padding-left: 1%;
           }
           &.signupbutton {
             height: 50px;
