@@ -1,0 +1,98 @@
+@import "../../styles/fonts";
+
+.signup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3f1e9;
+  height: 100% !important;
+  &-this {
+    width: 70%;
+    &-art {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 45%;
+      margin: auto;
+      &--heading {
+        h2 {
+          font-family: "Hind", sans-serif;
+          font-weight: 600;
+          font-style: normal;
+          font-size: 2.5rem;
+          color: #12888b;
+        }
+        p {
+          font-family: "Hind", sans-serif;
+          font-weight: 500;
+          font-style: normal;
+        }
+      }
+      &--fields {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .fields {
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+          label {
+            font-family: "Hind", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
+          }
+          input {
+            height: 50px;
+            border: none;
+          }
+          input::placeholder {
+            font-family: "Hind", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            color: #d1cbcb;
+          }
+          &.signupbutton {
+            height: 50px;
+            background-color: #f15591;
+            border: 0;
+            justify-content: center;
+            align-items: center;
+            font-family: "Hind", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
+            color:white;
+          }
+          &-account{
+            font-family: "Hind", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 17px;
+            color: #959292;
+         
+
+          }
+          &-terms{
+            font-family: "Hind", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 13px;
+            span{
+                font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-second {
+    max-width: 40%;
+
+    img {
+      width: 70%;
+    }
+  }
+}
