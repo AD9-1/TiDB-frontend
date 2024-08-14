@@ -30,7 +30,7 @@ const Signup = ({ setPage, page }) => {
             {page === "sign-up" ? (
               <button className="fields signupbutton">SIGN UP</button>
             ) : (
-              <button className="fields signupbutton">Login</button>
+              <button className="fields signupbutton">LOGIN</button>
             )}
             {page === "sign-up" ? (
               <p className="fields-account">
