@@ -35,12 +35,24 @@ const Signup = ({ setPage, page }) => {
             {page === "sign-up" ? (
               <p className="fields-account">
                 Already have an account?{" "}
-                <span onClick={() => setPage("login")}>Login</span>
+                <span
+                  className="togglebutton"
+                  tabindex="0"
+                  onClick={() => setPage("login")}
+                >
+                  Login
+                </span>
               </p>
             ) : (
               <p className="fields-account">
                 Don't have an account?{" "}
-                <span onClick={() => setPage("sign-up")}>Sign-up</span>
+                <span
+                  className="togglebutton"
+                  tabindex="0"
+                  onClick={() => setPage("sign-up")}
+                >
+                  Sign-up
+                </span>
               </p>
             )}
             <p className="fields-terms">

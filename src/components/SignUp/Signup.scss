@@ -64,24 +64,29 @@
             font-weight: 500;
             font-style: normal;
             font-size: 20px;
-            color:white;
+            color: white;
           }
-          &-account{
+          &-account {
             font-family: "Hind", sans-serif;
             font-weight: 400;
             font-style: normal;
             font-size: 17px;
             color: #959292;
-         
 
+            .togglebutton:focus{
+                cursor: pointer;
+                color:black;
+                font-weight: bolder;
+                transition:.2s ease-in-out;
+            }
           }
-          &-terms{
+          &-terms {
             font-family: "Hind", sans-serif;
             font-weight: 400;
             font-style: normal;
             font-size: 13px;
-            span{
-                font-weight: bold;
+            span {
+              font-weight: bold;
             }
           }
         }
